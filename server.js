@@ -56,6 +56,6 @@ app.get('/api/deal', (req, res) => {
 //     console.log(`Server running on http://localhost:${PORT}`);
 // });
 
-app.listen(process.env.PORT || 5000, () => {
+app.listen(process.env.PORT || 3000, () => {
     console.log(`Server started , BKP`);
 });
